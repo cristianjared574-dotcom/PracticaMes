@@ -31,7 +31,9 @@ namespace PracticaMes
             }
             else if (Tipovehiculo == "Automovil")
             {
-
+                string PlacaAuto = "ABC-1234";
+                int horas = int.Parse(txtHoras.Text.Trim());
+                vehiculo = new Automovil(Tipovehiculo,HorasIngresadas , PlacaAuto);
 
             }
             else if (Tipovehiculo == "Camioneta")
