@@ -36,7 +36,8 @@ namespace PracticaMes
             }
             else if (Tipovehiculo == "Camioneta")
             {
-
+                int numeroEjes = 2;
+                vehiculo = new Camioneta(Tipovehiculo, HorasIngresadas, numeroEjes);
             }
 
             if (vehiculo != null)
@@ -50,6 +51,11 @@ namespace PracticaMes
                 MessageBox.Show("Seleccione un tipo de boleto válido", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
+        }
+
+        private void cmbVehiculo_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
