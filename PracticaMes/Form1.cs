@@ -25,16 +25,16 @@ namespace PracticaMes
             string Tipovehiculo = cmbVehiculo.Text.Trim();
             int HorasIngresadas = int.Parse(txtHoras.Text.Trim());
 
-            if (Tipovehiculo == "Estudiante")
+            if (Tipovehiculo == "Motocicleta")
             {
 
             }
-            else if (Tipovehiculo == "Adulto Mayor")
+            else if (Tipovehiculo == "Automovil")
             {
 
 
             }
-            else if (Tipovehiculo == "General")
+            else if (Tipovehiculo == "Camioneta")
             {
 
             }
