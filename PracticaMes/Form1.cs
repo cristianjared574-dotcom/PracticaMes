@@ -27,6 +27,7 @@ namespace PracticaMes
 
             if (Tipovehiculo == "Motocicleta")
             {
+                vehiculo = new Motocicleta(Tipovehiculo,HorasIngresadas, 4);
 
             }
             else if (Tipovehiculo == "Automovil")
@@ -52,6 +53,11 @@ namespace PracticaMes
                 MessageBox.Show("Seleccione un tipo de boleto válido", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
+        }
+
+        private void cmbVehiculo_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

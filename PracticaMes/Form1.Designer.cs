@@ -100,6 +100,7 @@
             this.cmbVehiculo.Name = "cmbVehiculo";
             this.cmbVehiculo.Size = new System.Drawing.Size(319, 39);
             this.cmbVehiculo.TabIndex = 1;
+            this.cmbVehiculo.SelectedIndexChanged += new System.EventHandler(this.cmbVehiculo_SelectedIndexChanged);
             // 
             // label1
             // 
